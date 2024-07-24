@@ -1,0 +1,3 @@
+# NEWS CLASSIFICATION IN INDIAN LANGUAGES USING NLP
+
+This project presents a novel approach to news classification across five Indian languages utilizing the BERT language model. The project aims to effectively categorize news headlines into predefined categories. By leveraging the powerful capabilities of BERT, we address the challenges posed by the diversity of Indian languages and the inherent complexity of text classification. The proposed system demonstrates the potential of deep learning techniques in enhancing news organization and retrieval systems, ultimately improving information dissemination in multilingual contexts.
