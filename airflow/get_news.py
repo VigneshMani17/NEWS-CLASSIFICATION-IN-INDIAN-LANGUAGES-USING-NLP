@@ -40,10 +40,12 @@ class NewsExtractor:
         
         all_news = []
 
-    # Fetch and process news for each URL
         for url in urls:
             category, news_items = self.fetch_news(url)  # No need to pass category_class and news_class
             all_news.extend(self.extract_headlines(news_items, category))
 
-    # Write all news to CSV
-        #self.write_news_to_csv(r"airflow\news_classifier\tamil_news.csv", all_news)
+        self.write_news_to_csv(r"dataset/tamil_news.csv", all_news)
+
+if __name__ == "__main__":
+    news_extractor = NewsExtractor()
+    news_extractor.run_news_etl()
